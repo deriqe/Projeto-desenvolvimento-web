@@ -63,6 +63,16 @@ a {
 
 /* -----[ PÁGINA INICIAL ]------ */
 
+span {
+    font-size: 28pt;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    animation-name: teste;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
 div#texto {
     height: 52vh;
     width: 60%;
@@ -71,7 +81,7 @@ div#texto {
 }
 
 div#texto p {
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 p {
@@ -95,13 +105,13 @@ button.s {
 }
 
 div.button {
-    text-align: center;
+    float: right;
+    margin-right: 3vw;
 }
 
 button.f {
     font-size: 20pt;
-    border-radius: 5px;
-    padding: 10px 15px;
+    padding: 10px 25px;
     animation-name: bg;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -160,6 +170,8 @@ section#rgb div {
 }
 
 table {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     margin: 15% auto;
     width: 70%;
     height: 70%;
@@ -189,6 +201,7 @@ td {
 
 td.u {
     padding-right: 0;
+    margin-right: 0;
 }
 
 caption {
