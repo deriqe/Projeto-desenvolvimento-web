@@ -1,2 +1,2 @@
 # Projeto v1
-Primeiro projeto para entrega
+Primeiro projeto mais "sério", com HTML e CSS
