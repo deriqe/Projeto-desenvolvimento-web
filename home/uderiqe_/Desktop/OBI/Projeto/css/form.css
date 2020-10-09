@@ -1,0 +1,120 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* -----[ MENU ]------ */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.barra {
+    margin: 0px 30px;
+}
+
+.nome {
+    font-weight: 500;
+    font-size: 28px;
+    animation-name: teste;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes teste {
+    0%   {color: rgb(255, 64, 64);}
+    10%  {color: rgb(253, 163, 60);}
+    20%  {color: rgb(253, 250, 60);}
+    30%  {color: rgb(68, 250, 68);}
+    40%  {color: rgb(60, 253, 195);}
+    50%  {color: rgb(43, 110, 255);}
+    60%  {color: rgb(59, 72, 248);}
+    70%  {color: rgb(127, 59, 253);}
+    80%  {color: rgb(229, 68, 250);}
+    90%  {color: rgb(250, 68, 98);}
+    100% {color: rgb(255, 64, 64);}
+}
+
+/* -----[ LINKS ]------ */
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 400;
+}
+
+.t:hover {
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    padding: 1px 3px;
+}
+
+/* -----[ FORM ]------ */
+
+form {
+    text-align: center;
+    margin-top: 10%;
+}
+
+input.caixa {
+    margin-bottom: 5vh;
+    padding: 15px;
+    width: 50%;
+}
+
+input#buttonC, #buttonL {
+    width: 20%;
+    margin: 40px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+label {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#user, #pass, #email {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    background-color: black;
+    color: white;
+
+    border: 5px solid white;
+    border-radius: 5px;
+    animation-name: border;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    0%   {border: 3px solid rgb(255, 64, 64);}
+    10%  {border: 3px solid rgb(253, 163, 60);}
+    20%  {border: 3px solid rgb(253, 250, 60);}
+    30%  {border: 3px solid rgb(68, 250, 68);}
+    40%  {border: 3px solid rgb(60, 253, 195);}
+    50%  {border: 3px solid rgb(43, 110, 255);}
+    60%  {border: 3px solid rgb(59, 72, 248);}
+    70%  {border: 3px solid rgb(127, 59, 253);}
+    80%  {border: 3px solid rgb(229, 68, 250);}
+    90%  {border: 3px solid rgb(250, 68, 98);}
+    100% {border: 3px solid rgb(255, 64, 64);}
+}
