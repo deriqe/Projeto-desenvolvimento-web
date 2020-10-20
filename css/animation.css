@@ -1,0 +1,55 @@
+@keyframes teste {
+    0%   {color: rgb(255, 64, 64);}
+    10%  {color: rgb(253, 163, 60);}
+    20%  {color: rgb(253, 250, 60);}
+    30%  {color: rgb(68, 250, 68);}
+    40%  {color: rgb(60, 253, 195);}
+    50%  {color: rgb(43, 110, 255);}
+    60%  {color: rgb(59, 72, 248);}
+    70%  {color: rgb(127, 59, 253);}
+    80%  {color: rgb(229, 68, 250);}
+    90%  {color: rgb(250, 68, 98);}
+    100% {color: rgb(255, 64, 64);}
+}
+
+@keyframes bg {
+    0%   {background-color: rgb(255, 64, 64);}
+    10%  {background-color: rgb(253, 163, 60);}
+    20%  {background-color: rgb(253, 250, 60);}
+    30%  {background-color: rgb(68, 250, 68);}
+    40%  {background-color: rgb(60, 253, 195);}
+    50%  {background-color: rgb(43, 110, 255);}
+    60%  {background-color: rgb(59, 72, 248);}
+    70%  {background-color: rgb(127, 59, 253);}
+    80%  {background-color: rgb(229, 68, 250);}
+    90%  {background-color: rgb(250, 68, 98);}
+    100% {background-color: rgb(255, 64, 64);}
+}
+
+@keyframes border {
+    0%   {border: 5px solid rgb(255, 64, 64);}
+    10%  {border: 5px solid rgb(253, 163, 60);}
+    20%  {border: 5px solid rgb(253, 250, 60);}
+    30%  {border: 5px solid rgb(68, 250, 68);}
+    40%  {border: 5px solid rgb(60, 253, 195);}
+    50%  {border: 5px solid rgb(43, 110, 255);}
+    60%  {border: 5px solid rgb(59, 72, 248);}
+    70%  {border: 5px solid rgb(127, 59, 253);}
+    80%  {border: 5px solid rgb(229, 68, 250);}
+    90%  {border: 5px solid rgb(250, 68, 98);}
+    100% {border: 5px solid rgb(255, 64, 64);}
+}
+
+@keyframes shadow {
+    0%   {text-shadow: 2px 2px 2px rgb(255, 64, 64);}
+    10%  {text-shadow: 2px 2px 2px rgb(253, 163, 60);}
+    20%  {text-shadow: 2px 2px 2px rgb(253, 250, 60);}
+    30%  {text-shadow: 2px 2px 2px rgb(68, 250, 68);}
+    40%  {text-shadow: 2px 2px 2px rgb(60, 253, 195);}
+    50%  {text-shadow: 2px 2px 2px rgb(43, 110, 255);}
+    60%  {text-shadow: 2px 2px 2px rgb(59, 72, 248);}
+    70%  {text-shadow: 2px 2px 2px rgb(127, 59, 253);}
+    80%  {text-shadow: 2px 2px 2px rgb(229, 68, 250);}
+    90%  {text-shadow: 2px 2px 2px rgb(250, 68, 98);}
+    100% {text-shadow: 2px 2px 2px rgb(255, 64, 64);}
+}
