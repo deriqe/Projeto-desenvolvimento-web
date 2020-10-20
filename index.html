@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title> Futur. | Home </title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="Dinasty logo v1.png"/>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script src="js/index.js"></script>
+    <link rel="shortcut icon" href="img/logo.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- [MENU] -->
+    <!-------- [ MENU ] -------->
 
     <header id="index">
         <div>
@@ -24,7 +27,7 @@
         </div>
     </header>
 
-    <!-- [PÁGINA INICIAL] -->
+    <!-------- [ PÁGINA INICIAL ] -------->
 
     <div id="texto">
         <span>Seu futuro só depende de você, mas isso não impede de ter uma ajudinha extra.</span><br>
@@ -39,7 +42,7 @@
         </button>
     </div>
 
-    <!-- [PÁGINA 2] -->
+    <!-------- [ PÁGINA 2 ] -------->
 
     <section id="rgb">
         <div class="box1">
@@ -62,9 +65,9 @@
         </div>
     </section>
     
-    <!-- [TABELA] -->
+    <!-------- [ TABELA ] -------->
 
-    <section id="tab">
+    <section>
         <table>
             <caption> Planos </caption>
             <tr>
@@ -94,8 +97,10 @@
           </table>
     </section>
 
+    <!-------- [ PAGE UP ] -------->
+
     <div class="button">
-        <button class="f" type="button" onclick="document.location='#index'">
+        <button class="f" id = "myBtn" type="button" onclick="topFunction()">
             ⯅
         </button>
     </div>
