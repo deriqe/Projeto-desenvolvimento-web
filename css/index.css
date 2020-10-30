@@ -133,7 +133,7 @@ div.button {
 
 button.f {
     font-size: 15pt;
-    padding: 5px 15px;
+    padding: 5px 15px 10px 15px;
     animation-name: bg;
     animation-duration: 8s;
     animation-iteration-count: infinite;
