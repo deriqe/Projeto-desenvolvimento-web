@@ -21,13 +21,14 @@ a.l:hover {
 /* -----[ IMAGEM ]------ */
 
 img {
-    width: 270px;
-    height: 480px;
+    position: relative;
+    width: 23%;
     float: left;
     animation-name: border;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     border-radius: 3px;
+    z-index: 1;
 }
 
 /* -----[ TEXTO ]------ */
@@ -66,6 +67,7 @@ div.cor {
     background-color: rgb(255, 255, 255);
     height: 48px;
     visibility: hidden;
+    z-index: 2;
 }
 
 div.cor ul {
